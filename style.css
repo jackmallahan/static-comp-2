@@ -1,276 +1,276 @@
-
+/************************************************/
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #EDEDED;
-  position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDEDED;
+    position: relative;
 }
 
 header {
-  position: relative;
-  background-color: #003773;
-  height: 150px;
+    position: relative;
+    background-color: #003773;
+    height: 150px;
 }
 
 nav,
 h1,
 .username {
-  color: white;
+    color: white;
 }
 
 .username {
-  position: absolute;
-  font-size: 12px;
-  top: 8px;
-  right: 16px;
+    position: absolute;
+    font-size: 12px;
+    top: 8px;
+    right: 16px;
 }
 
 .manager-icon {
-  height: 14px;
+    height: 14px;
 }
 
-.dropdown{
-  height: 10px;
+.dropdown {
+    height: 10px;
 }
 
 .mobile-logo {
-  display: none;
+    display: none;
 }
 
 nav {
-  list-style-type: none;
-  position: absolute;
-  bottom: 36px;
-  left: 16px;
+    list-style-type: none;
+    position: absolute;
+    bottom: 36px;
+    left: 16px;
 }
 
 .nav-icon {
-  position: relative;
-  height: 15px;
+    position: relative;
+    height: 15px;
 }
 
-.standings-icon{
-  bottom: -2px;
+.standings-icon {
+    bottom: -2px;
 }
 
 .schedule-icon {
-  height: 13px;
-  bottom: 0px;
+    height: 13px;
+    bottom: 0px;
 }
 
 .stats-icon {
-  height: 15px;
-  bottom: -1px;
+    height: 15px;
+    bottom: -1px;
 }
 
 li {
-  display: inline;
-  padding: 7px;
+    display: inline;
+    padding: 7px;
 }
 
 .title {
-  font-family: 'Bitter', serif;
-  position: absolute;
-  bottom: 12px;
-  right: 95px;
-  margin-bottom: 23px;
+    font-family: 'Bitter', serif;
+    position: absolute;
+    bottom: 12px;
+    right: 95px;
+    margin-bottom: 23px;
 }
 
 .logo {
-  height: 70px;
-  position: absolute;
-  bottom: 0px;
-  right: 16px;
-  margin-bottom: 23px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    margin-bottom: 23px;
 }
 
 h2 {
-  margin-left: 35px;
+    margin-left: 35px;
 }
 
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 95%;
-  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
 }
 
 article {
-  background-color: #FCFCFC;
-  box-sizing: border-box;
-  box-shadow: 2px 2px #00524E;
-  border: 1px solid black;
-  width: 225px;
-  height: 350px;
-  margin: 10px;
+    background-color: #FCFCFC;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #00524E;
+    border: 1px solid black;
+    width: 220px;
+    height: 350px;
+    margin: 10px;
 }
 
 .card-header {
-  height: 33.333333%;
-  width: 100%;
-  background-color: #00524E;
-  filter: grayscale(80%);
+    height: 33.333333%;
+    width: 100%;
+    background-color: #00524E;
+    filter: grayscale(80%);
 }
 
 .player-icon {
-  height: 30px;
-  margin: 10px;
+    height: 30px;
+    margin: 10px;
 }
 
 .player-number {
-  color: white;
-  float: right;
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  margin: 10px;
-  text-shadow: 2px 2px #00524E;
+    color: white;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+    text-shadow: 2px 2px #00524E;
 }
 
 .number {
-  display: block;
-  font-size: 16px;
+    display: block;
+    font-size: 16px;
 }
 
 .player-name {
-  font-family: 'Bitter', serif;
-  font-size: 16px;
-  margin: 5px 10px;
+    font-family: 'Bitter', serif;
+    font-size: 16px;
+    margin: 5px 10px;
 }
 
 .date {
-  font-size: 10px;
-  color: gray;
-  margin: 2px 10px;
+    font-size: 10px;
+    color: gray;
+    margin: 2px 10px;
 }
 
 .link {
-  height: 50px;
-  width: 90%;
-  background-color: #DEDEDE;
-  margin: 5px auto;
-  word-wrap: break-word;
+    height: 50px;
+    width: 90%;
+    background-color: #DEDEDE;
+    margin: 5px auto;
+    word-wrap: break-word;
 }
 
 .link-container {
-  margin: 5px 10px;
-  padding-top: 5px;
-  height: 50px;
-  text-overflow: ellipsis;
+    margin: 5px 10px;
+    padding-top: 5px;
+    height: 50px;
+    text-overflow: ellipsis;
 }
 
 .link a {
-  text-decoration: none;
-  color: #00524E;
-  font-size: 14px;
-  text-overflow: ellipsis;
+    text-decoration: none;
+    color: #00524E;
+    font-size: 14px;
+    text-overflow: ellipsis;
 }
 
 h6 {
-  font: 16px;
-  margin: 2px 10px;
+    font: 16px;
+    margin: 2px 10px;
 }
 
 .position,
 .ba {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .ba {
-  color: #1C8B85;
-  font-weight: 700;
-  font-size: 32px;
-  margin: 10px 15px;
+    color: #1C8B85;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 10px 15px;
 }
 
 .segura {
-  background: url(assets/segura.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/segura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .haniger {
-  background: url(assets/mitch-haniger.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/mitch-haniger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cano {
-  background: url(assets/cano.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/cano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cruz {
-  background: url(assets/cruz.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/cruz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.seager{
-  background: url(assets/seager.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.seager {
+    background: url(assets/seager.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.motter{
-  background: url(assets/motter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.motter {
+    background: url(assets/motter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .valencia {
-  background: url(assets/valencia.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/valencia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .dyson {
-  background: url(assets/dyson.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/dyson.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .zunino {
-  background: url(assets/zunino.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/zunino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .moose {
-  background: url(assets/moose.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    background: url(assets/moose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .username:hover {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 article:hover {
-  transform: scale(1.05);
-  box-shadow: 4px 4px #00524E;
-  cursor: context-menu;
-  }
+    transform: scale(1.05);
+    box-shadow: 4px 4px #00524E;
+    cursor: context-menu;
+}
 
 article:hover .card-header {
-  filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .card-header:hover img {
-  transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 .card-header:hover p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .player-icon:hover {
-  cursor: copy;
+    cursor: copy;
 }
 
 li:hover {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 /***************************************
@@ -278,29 +278,29 @@ media query 1030px
 ****************************************/
 
 @media screen and (max-width: 1030px) {
-  article{
-    width: 30%
-  }
-}
+    article {
+        width: 30%
+    }
 
+}
 
 /***************************************
 media query 800px
 ****************************************/
 
 @media screen and (max-width: 800px) {
+    article {
+        width: 45%;
+    }
 
-  article {
-    width: 225px;
-  }
+    .title {
+        font-size: 1.5em;
+    }
 
-  .title {
-    font-size: 1.5em;
-  }
+    .logo {
+        height: 60px;
+    }
 
-  .logo {
-    height: 60px;
-  }
 }
 
 /***************************************
@@ -308,24 +308,24 @@ media query 660px
 ****************************************/
 
 @media screen and (max-width: 660px) {
+    article {
+        width: 45%;
+    }
 
-  article {
-    width: 45%;
-  }
+    li {
+        font-size: 10px;
+        padding: 2px;
+    }
 
-  li {
-    font-size: 10px;
-    padding: 2px;
-  }
+    .title {
+        font-size: 1.2em;
+        right: 75px;
+    }
 
-  .title {
-    font-size: 1.2em;
-    right: 75px;
-  }
+    .logo {
+        height: 50px
+    }
 
-  .logo {
-    height: 50px
-  }
 }
 
 /***************************************
@@ -333,104 +333,103 @@ media query 520px
 ****************************************/
 
 @media screen and (max-width: 520px) {
+    body {
+        width: 100%;
+    }
 
-  body {
-    width: 100%;
-  }
+    .title,
+    .logo {
+        display: none;
+    }
 
-  .title,
-  .logo {
-    display: none;
-  }
+    header {
+        width: 100%;
+        height: 135px;
+        display: block;
+    }
 
-  header {
-    width: 100%;
-    height: 135px;
-    display: block;
-  }
+    .username {
+        font-size: 8px;
+    }
 
-  .username {
-    font-size: 8px;
-  }
+    .username img {
+        height: 7px;
+    }
 
-  .username img {
-    height: 7px;
-  }
+    .mobile-header {
+        text-align: center;
+    }
 
-  .mobile-header {
-    text-align: center;
-  }
+    .mobile-logo {
+        display: flex;
+        background-image: url(assets/mariners-logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 125px;
+        width: 70%;
+        margin: auto;
+    }
 
-  .mobile-logo {
-    display: flex;
-    background-image: url(assets/mariners-logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 125px;
-    width: 70%;
-    margin: auto;
-  }
+    .mobile-logo img {
+        margin-top: 10px;
+    }
 
-  .mobile-logo img {
-    margin-top: 10px;
-  }
+    nav {
+        display: inline;
+        width: 100%;
+        bottom: 5px;
+        left: 0;
+        margin: 0 auto;
+    }
 
-  nav {
-    display: inline;
-    width: 100%;
-    bottom: 5px;
-    left: 0;
-    margin: 0 auto;
-  }
+    li {
+        padding: 0;
+    }
 
-  li {
-    padding: 0;
-  }
+    h2 {
+        margin: 10px 0;
+        text-align: center;
+    }
 
-  h2 {
-    margin: 10px 0;
-    text-align: center;
-  }
+    .card-container {
+        display: block;
+        width: 100%;
+    }
 
-  .card-container{
-    display: block;
-    width: 100%;
-  }
+    article {
+        width: 90%;
+        margin: 7px auto;
+    }
 
-  article {
-    width: 90%;
-    margin: 7px auto;
-  }
+    article:hover {
+        transform: scale(1);
+    }
 
-  article:hover{
-    transform: scale(1);
-  }
+    .card-header {
+        background-position: 0 10%;
+        filter: grayscale(10%);
+    }
 
-  .card-header {
-    background-position: 0 10%;
-    filter: grayscale(10%);
-  }
+    .link {
+        width: 90%;
+        margin: 5px auto;
+    }
 
-  .link {
-    width: 90%;
-    margin: 5px auto;
-  }
+    .haniger,
+    .cano,
+    .valencia {
+        background-position: left 0 top -35px;
+    }
 
-  .haniger,
-  .cano,
-  .valencia {
-    background-position: left 0 top -35px;
-  }
+    .moose {
+        background-size: cover;
+    }
 
-  .moose {
-    background-size: cover;
-  }
-
-  footer {
-    height: 135px;
-    background-image: url(assets/footer.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+    footer {
+        height: 135px;
+        background-image: url(assets/footer.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 }
