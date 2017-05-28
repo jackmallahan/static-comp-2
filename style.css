@@ -243,7 +243,9 @@ h6 {
   background-size: cover;
 }
 
-
+.username:hover {
+  font-weight: 700;
+}
 
 article:hover {
   transform: scale(1.05);
@@ -306,6 +308,10 @@ media query 660px
 ****************************************/
 
 @media screen and (max-width: 660px) {
+
+  article {
+    width: 45%;
+  }
 
   li {
     font-size: 10px;
@@ -402,6 +408,7 @@ media query 520px
 
   .card-header {
     background-position: 0 10%;
+    filter: grayscale(10%);
   }
 
   .link {
