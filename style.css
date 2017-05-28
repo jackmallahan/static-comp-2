@@ -146,9 +146,9 @@ article {
 
 .link {
   height: 50px;
-  width: 205px;
+  width: 90%;
   background-color: #DEDEDE;
-  margin: 5px 10px;
+  margin: 5px auto;
   word-wrap: break-word;
 }
 
@@ -272,10 +272,25 @@ li:hover {
 }
 
 /***************************************
+media query 1030px
+****************************************/
+
+@media screen and (max-width: 1030px) {
+  article{
+    width: 30%
+  }
+}
+
+
+/***************************************
 media query 800px
 ****************************************/
 
 @media screen and (max-width: 800px) {
+
+  article {
+    width: 225px;
+  }
 
   .title {
     font-size: 1.5em;
@@ -328,26 +343,36 @@ media query 520px
     display: block;
   }
 
+  .username {
+    font-size: 8px;
+  }
+
+  .username img {
+    height: 7px;
+  }
+
   .mobile-header {
     text-align: center;
   }
 
   .mobile-logo {
-    display: inline-block;
+    display: flex;
     background-image: url(assets/mariners-logo.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 240px;
-    height: 50px;
-    padding: 22px;
+    background-size: contain;
+    height: 125px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .mobile-logo img {
     margin-top: 10px;
   }
 
   nav {
     display: inline;
-    position: relative;
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     margin: 0 auto;
   }
@@ -363,6 +388,7 @@ media query 520px
 
   .card-container{
     display: block;
+    width: 100%;
   }
 
   article {
@@ -374,11 +400,30 @@ media query 520px
     transform: scale(1);
   }
 
+  .card-header {
+    background-position: 0 10%;
+  }
+
   .link {
     width: 90%;
     margin: 5px auto;
   }
 
+  .haniger,
+  .cano,
+  .valencia {
+    background-position: left 0 top -35px;
+  }
 
+  .moose {
+    background-size: cover;
+  }
+
+  footer {
+    height: 135px;
+    background-image: url(assets/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 }
